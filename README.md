@@ -96,8 +96,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
             "description" => "[Beschreibung des Produktes]",
             "category" => "[Kethegorie des Produktes]",
             "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
-        }
-        ````
+        }        
 
    **Produkte hinzufügen**
    URL: localhost:9000/api/products/jsonList
@@ -118,8 +117,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
                 "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
             },
             ...
-        ]
-        ````
+        ]        
 
    **Produkt aktualisieren**
    URL: localhost:9000/api/products/{id}
@@ -131,8 +129,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
             "description" => "[Beschreibung des Produktes]",
             "category" => "[Kethegorie des Produktes]",
             "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
-        }
-        ````
+        }        
 
    **Produkt aktualisieren**
    URL: localhost:9000/api/products/{id}
