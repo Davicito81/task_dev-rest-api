@@ -64,13 +64,14 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
 
    **Verfügbare API-Routen**
 
-   | Method | URI                     | Name            | Action                                         |
-   |--------|-------------------------|-----------------|------------------------------------------------|
-   | GET    | /api/products           | products.index  | App\Http\Controllers\ProductController@index   |
-   | POST   | /api/products           | products.store  | App\Http\Controllers\ProductController@store   |
-   | GET    | /api/products/{product} | products.show   | App\Http\Controllers\ProductController@show    |
-   | PUT    | /api/products/{product} | products.update | App\Http\Controllers\ProductController@update  |
-   | DELETE | /api/products/{product} | products.destroy| App\Http\Controllers\ProductController@destroy |
+   | Method | URI                     | Name            | Action                                               |
+   |--------|-------------------------|-----------------|------------------------------------------------------|
+   | GET    | /api/products           | products.index  | App\Http\Controllers\ProductController@index         |
+   | POST   | /api/products           | products.store  | App\Http\Controllers\ProductController@store         |
+   | POST   | /api/products/jsonList  |                 | App\Http\Controllers\ProductController@storeJsonList |
+   | GET    | /api/products/{product} | products.show   | App\Http\Controllers\ProductController@show          |
+   | PUT    | /api/products/{product} | products.update | App\Http\Controllers\ProductController@update        |
+   | DELETE | /api/products/{product} | products.destroy| App\Http\Controllers\ProductController@destroy       |
 
    Diese Darstellung kann durch folgenden Docker Befehl abgerufen werden
 
