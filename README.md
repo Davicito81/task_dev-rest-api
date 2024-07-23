@@ -79,17 +79,17 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    ``` 
 
    **Produkte ansehen**
-   URL: localhost:9000/api/products
-   Methode: GET
+   - URL: localhost:9000/api/products
+   - Methode: GET
 
    **Produkt abfragen**
-   URL: localhost:9000/api/products/{id}
-   Methode: GET
+   - URL: localhost:9000/api/products/{id}
+   - Methode: GET
 
    **Produkt hinzufügen**
-   URL: localhost:9000/api/products
-   Methode: POST
-   Daten:
+   - URL: localhost:9000/api/products
+   - Methode: POST
+   - Daten:
         ```json
         {
             "title": "[Titel des Produktes]",
@@ -99,9 +99,9 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         }        
 
    **Produkte hinzufügen**
-   URL: localhost:9000/api/products/jsonList
-   Methode: POST
-   Daten:
+   - URL: localhost:9000/api/products/jsonList
+   - Methode: POST
+   - Daten:
         ```json
         [
             {
@@ -120,9 +120,9 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         ]        
 
    **Produkt aktualisieren**
-   URL: localhost:9000/api/products/{id}
-   Methode: PUT
-   Daten:
+   - URL: localhost:9000/api/products/{id}
+   - Methode: PUT
+   - Daten:
         ```json
         {
             "title": "[Titel des Produktes]",
@@ -132,8 +132,8 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         }        
 
    **Produkt aktualisieren**
-   URL: localhost:9000/api/products/{id}
-   Methode: DELETE
+   - URL: localhost:9000/api/products/{id}
+   - Methode: DELETE
 
 ## Support**:
 Bei Problemen oder Fragen zur Einrichtung oder Nutzung der API können Sie gerne ein Issue im GitHub-Repository erstellen oder den technischen Support kontaktieren.
