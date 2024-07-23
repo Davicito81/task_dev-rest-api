@@ -93,9 +93,9 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         ```json
         {
             "title": "[Titel des Produktes]",
-            "description" => "[Beschreibung des Produktes]",
-            "category" => "[Kethegorie des Produktes]",
-            "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
+            "description":"[Beschreibung des Produktes]",
+            "category": "[Kethegorie des Produktes]",
+            "state":"[true|false]"   // das Attribute 'state' muss nicht zwingend angegeben werden.
         }        
 
    **Produkte hinzufügen**
@@ -106,15 +106,15 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         [
             {
                 "title": "[Titel des Produktes]",
-                "description" => "[Beschreibung des Produktes]",
-                "category" => "[Kethegorie des Produktes]",
-                "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
+                "description": "[Beschreibung des Produktes]",
+                "category": "[Kethegorie des Produktes]",
+                "state":  "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
             },
             {
                 "title": "[Titel des Produktes]",
-                "description" => "[Beschreibung des Produktes]",
-                "category" => "[Kethegorie des Produktes]",
-                "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
+                "description": "[Beschreibung des Produktes]",
+                "category": "[Kethegorie des Produktes]",
+                "state": "[true|false]"   // das Attribute 'state' muss nicht zwingend angegeben werden.
             },
             ...
         ]        
@@ -126,9 +126,9 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         ```json
         {
             "title": "[Titel des Produktes]",
-            "description" => "[Beschreibung des Produktes]",
-            "category" => "[Kethegorie des Produktes]",
-            "state" => "[true|false]",   // das Attribute 'state' muss nicht zwingend angegeben werden.
+            "description": "[Beschreibung des Produktes]",
+            "category":  "[Kethegorie des Produktes]",
+            "state" : "[true|false]"   // das Attribute 'state' muss nicht zwingend angegeben werden.
         }        
 
    **Produkt aktualisieren**
