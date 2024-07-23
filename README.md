@@ -41,7 +41,8 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    Klicken Sie auf Code und dann auf Download ZIP
    Entpacken Sie die ZIP-Datei und navigieren Sie in das Projektverzeichnis.
    
-2. **Docker-Umgebung starten**:   
+## Docker-Umgebung starten**
+
    Navigieren Sie im Terminal oder in der Eingabeaufforderung zum Projektverzeichnis und führen Sie folgenden Befehl aus:
 
    ```bash
@@ -49,7 +50,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    ```
    Dieser Befehl startet alle benötigten Dienste im Hintergrund.
 
-3. **Datenbankmigrationen ausführen**: 
+## Datenbankmigrationen ausführen**: 
    Führen Sie die Migrationen aus, um die Datenbanktabellen zu initialisieren und die Standardprodukte in die Tabelle "products" zu migrieren:
 
    ```bash
@@ -57,11 +58,11 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    docker-compose exec app php artisan db:seed --class=ProductsSeeder
    ```
 
-4. **Nutzung der REST-API**:
+## Nutzung der REST-API**:
 
    Übersicht aller möglichen Routen
 
-   ## Verfügbare API-Routen
+   **Verfügbare API-Routen**
 
    | Method | URI                     | Name            | Action                                         |
    |--------|-------------------------|-----------------|------------------------------------------------|
@@ -77,15 +78,15 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    docker-compose exec app php artisan route:list   
    ``` 
 
-   ## Produkte ansehen
+   **Produkte ansehen**
    URL: localhost:9000/api/products
    Methode: GET
 
-   ## Produkt abfragen
+   **Produkt abfragen**
    URL: localhost:9000/api/products/{id}
    Methode: GET
 
-   ## Produkt hinzufügen
+   **Produkt hinzufügen**
    URL: localhost:9000/api/products
    Methode: POST
    Daten:
@@ -98,7 +99,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         }
         ````
 
-   ## Produkte hinzufügen
+   **Produkte hinzufügen**
    URL: localhost:9000/api/products/jsonList
    Methode: POST
    Daten:
@@ -120,7 +121,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         ]
         ````
 
-   ## Produkt aktualisieren
+   **Produkt aktualisieren**
    URL: localhost:9000/api/products/{id}
    Methode: PUT
    Daten:
@@ -133,9 +134,9 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
         }
         ````
 
-   ## Produkt aktualisieren
+   **Produkt aktualisieren**
    URL: localhost:9000/api/products/{id}
    Methode: DELETE
 
-**Support**:
+## Support**:
 Bei Problemen oder Fragen zur Einrichtung oder Nutzung der API können Sie gerne ein Issue im GitHub-Repository erstellen oder den technischen Support kontaktieren.
