@@ -90,7 +90,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    URL: localhost:9000/api/products
    Methode: POST
    Daten:
-        ````
+        ```json
         {
             "title": "[Titel des Produktes]",
             "description" => "[Beschreibung des Produktes]",
@@ -103,7 +103,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    URL: localhost:9000/api/products/jsonList
    Methode: POST
    Daten:
-        ````
+        ```json
         [
             {
                 "title": "[Titel des Produktes]",
@@ -125,7 +125,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    URL: localhost:9000/api/products/{id}
    Methode: PUT
    Daten:
-        ````
+        ```json
         {
             "title": "[Titel des Produktes]",
             "description" => "[Beschreibung des Produktes]",
