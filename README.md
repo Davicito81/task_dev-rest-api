@@ -41,6 +41,21 @@ Bevor Sie beginnen, stellen Sie sicher, dass folgende Software auf Ihrem System 
    Klicken Sie auf Code und dann auf Download ZIP
    Entpacken Sie die ZIP-Datei und navigieren Sie in das Projektverzeichnis.
    
+## Projekt-Testumgebung herstellen 
+   Nach dem das Projekt heruntergeladen wurde, müssen wichtige Abhänigkeiten im Framework Laravel nachinstalliert werden.
+   Dazu füren Sie folgenden Befehl aus.
+   
+   ```bash
+   composer install
+   ```
+
+   Hinweis für die lokale Verwendung der Rest-API-App 
+       Wenn Sie die die Rest-API local auf Ihrem Rechner zum Laufen bekommen wollen, müssen Sie darauf achten, dass die PHP version 8.2 oder neuer installiert ist und alle notwendigen PHP-Extension vorhanden und aktiviert sind.
+       Diese können in der Konfigurationsdatei php.ini aktiviert werden.
+    
+       Notwendige PHP-Extension: cli, mbstring, xml, curl, mysql, gd 
+   
+
 ## Docker-Umgebung starten**
 
    Navigieren Sie im Terminal oder in der Eingabeaufforderung zum Projektverzeichnis und führen Sie folgenden Befehl aus:
